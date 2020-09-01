@@ -1,11 +1,46 @@
 # 03 カラー
 
 
-###  背景色　ofBackground
+## 背景色　
+
+### 背景色（単色）ofBackground
  * グレースケール `ofBackground(0);`
  * RGB `ofBackground(0, 0, 0);`
 
 &nbsp;
+
+### 背景色（HEX） ofBackgroundHex
+ 
+ * 16進数指定 `ofBackgroundHex(0xff0000);`
+
+
+&nbsp;
+
+### 背景色（グラデーション） ofBackgroundGradient
+draw内に記述する
+
+```
+void ofApp::draw(){ 
+    ofColor colorOne;
+    ofColor colorTwo; 
+    colorOne.set (255, 0, 0);
+    colorTwo.set (0, 0, 255);
+
+    ofBackgroundGradient(colorOne, colorTwo, OF_GRADIENT_CIRCULAR);  
+}    
+```
+
+* 円形グラデーション `OF_GRADIENT_CIRCULAR`
+* 線形グラデーション `OF_GRADIENT_LINEAR`
+* BARグラデーション OF_GRADIENT_BAR
+
+[ofBackgroundGradient](http://openframeworks.jp/documentation/graphics/ofGraphics.html#!show_ofBackgroundGradient) 
+
+
+&nbsp;
+&nbsp;
+
+## 描画色
 
 ### 色の設定　ofSetColor
 初期値はRGB
@@ -21,6 +56,7 @@
 ##### 色の塗りつぶし
 `ofFill();`
 
+&nbsp;
 
 ##### 色を塗りつぶさない
 `ofNoFill();`
@@ -43,6 +79,8 @@ void ofApp::draw(){
 ```
 
 ![](img/03_color.png)
+
+&nbsp;
 &nbsp;
 
 ## HSB　色相彩度明度
@@ -50,15 +88,23 @@ void ofApp::draw(){
 色相、彩度、明度で表現するとトーンが固定されるので配色設計しやすい
 
 
-##### HSB
+##### HSB関数
 
-`ofColor::fromHsb(255, 255, 255);`
+```
+ofColor c;
+c.setHsb(ofRandom(255),255,255);
 
+```
 0~255で指定する
 
-##### HSBの関数を自作
+
+&nbsp;
+
+
+
+##### HSBA(alpha)の関数を自作
 ```
-void ofApp::setHSBColor(int hue, int saturation, int brightness, int alpha){
+void ofApp::setHSBA(int hue, int saturation, int brightness, int alpha){
     int setHue = (int)ofMap(hue, 0 , 360, 0, 255);
     int setSaturation = (int)ofMap(saturation, 0 , 100, 0, 255);
     int setBrightness = (int)ofMap(brightness, 0 , 100, 0, 255);
@@ -69,6 +115,7 @@ void ofApp::setHSBColor(int hue, int saturation, int brightness, int alpha){
 }
 ```
 
+&nbsp;
 &nbsp;
 
 ## カラー型変数
@@ -97,6 +144,8 @@ col.setHsb(hue,saturation,brightness);
 ofSetColor(col);
 
 ```
+
+&nbsp;
 
 ###　カラー型配列
 
@@ -134,7 +183,7 @@ for (int i=0; i< 3; i++) {
 ```
 
 
-
+&nbsp;
 &nbsp;
 
 ## 混色

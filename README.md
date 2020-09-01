@@ -13,6 +13,8 @@
 * [配列](docs/of/08_array.md)
 * [インタラクション](docs/of/05_interaction.md)
 * [計算](docs/of/07_math.md)
+* [クラス](docs/of/09_class.md)
+* [ポインタ](docs/of/11_C++_pointer.md)
 
 &nbsp;
 

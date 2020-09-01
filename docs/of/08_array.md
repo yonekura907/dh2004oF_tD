@@ -40,6 +40,21 @@ int myArr[] = {10,20,30,15,5};
 ```
 
 &nbsp;
+&nbsp;
+
+## 2次元配列
+
+```
+static const int ROW_NUM = 2;
+static const int COL_NUM = 5;
+    
+int hueArray[ROW_NUM][COL_NUM] = {{10,20,30,40,50},{50,40,30,20,10}};
+```
+
+
+
+&nbsp;
+&nbsp;
 
 <!--
 **length**

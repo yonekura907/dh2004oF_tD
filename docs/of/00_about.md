@@ -45,12 +45,9 @@ Design I/O
 #### particles
 
 
-[![particles](http://img.youtube.com/vi/gvUpkknryaY/0.jpg)](http://www.youtube.com/watch?v= gvUpkknryaY)
+[![particles](http://img.youtube.com/vi/gvUpkknryaY/0.jpg)](http://www.youtube.com/watch?v=gvUpkknryaY)
 
 
-[http://special.ycam.jp/particles/en/new_installtion.html](http://special.ycam.jp/particles/en/new_installtion.html)
-
-[真鍋大度＋石橋素 「particles」ができるまで。2年越しで実現した巨大インスタレーションとは？](http://www.cbc-net.com/topic/2011/05/daito-motoi-particles-ycam/)
 
 &nbsp;
 
