@@ -8,6 +8,98 @@
 - ポインタ変数から値を取るには変数名の前に*をつける `*pNum`　間接参照演算子
 
 
+&nbsp;
+&nbsp;
+
+
+ofApp.h
+
+```
+
+#pragma once
+
+#include "ofMain.h"
+
+class ofApp : public ofBaseApp{
+
+	public:
+		void setup();
+
+    void setArr(int *arr);
+    void setVal(ofVec2f *pos);
+    void setVec(vector<int> &vec);
+    
+    int num;
+    ofVec2f pos;
+    int arr[5] = {1,2,3,4,5};
+    vector <int> vec;
+};
+
+```
+
+ofApp.cpp
+```
+
+#include "ofApp.h"
+
+//--------------------------------------------------------------
+void ofApp::setup(){
+    num = 5;
+    
+    int* pNum; //ポインタ変数
+    pNum = &num;
+    
+//    cout<< num <<endl;
+//    cout<< &num <<endl;
+//    cout<< pNum <<endl;
+//    cout<< *pNum <<endl;
+    
+    
+    pos.x = 10;
+    pos.y = 20;
+    
+//    cout<< pos.x <<endl;
+    
+    vec.push_back(10);
+    vec.push_back(20);
+    vec.push_back(30);
+    
+    setVal(&pos);
+    setArr(arr);
+    setVec(vec);
+    
+    cout<< sizeof(vec) <<endl;
+}
+
+void ofApp::setVec(vector<int> &vec){ 
+    for(int i=0; i< vec.size(); i++){
+       cout<< vec[i] <<endl;
+    }
+}
+
+void ofApp::setArr(int *arr){
+    for(int i=0; i<5; i++){
+       cout<< arr[i] <<endl;
+    }
+}
+
+void ofApp::setVal(ofVec2f *pos){
+    ofVec2f valPos = *pos;
+    cout<< valPos.y <<endl;
+}
+
+
+
+```
+
+
+
+
+&nbsp;
+&nbsp;
+
+
+
 ```
 #include <iostream>
 using namespace std;
@@ -37,7 +129,6 @@ int main(){
     #include <iostream>
     using namespace std;
     
-    // void swap(int* pX, int* pY);
     
     int main(){
     
@@ -261,3 +352,5 @@ int main(){
     return 0;
 }
 ```
+
+
