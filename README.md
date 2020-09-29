@@ -9,6 +9,8 @@
 * [openFrameowksの基本設定](docs/of/02_settings.md)
 * [カラー](docs/of/03_color.md)
 * [図形](docs/of/04_shape.md)
+* [インタラクション](docs/of/05_interaction.md)
+* [座標変換](docs/of/06_transform.md)
 * [ベクトル](docs/of/07_vec.md)
 * [配列](docs/of/08_array.md)
 * [インタラクション](docs/of/05_interaction.md)
@@ -16,6 +18,8 @@
 * [クラス](docs/of/09_class.md)
 * [ポインタ](docs/of/11_C++_pointer.md)
 * [3D](docs/of/12_3D.md)
+* [GUI](docs/of/14_ofxGUI.md)
+* [球体](docs/of/13_sphere.md)
 
 &nbsp;
 

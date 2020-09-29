@@ -45,9 +45,9 @@ void ofApp::setup(){
 
 
 void ofApp::draw(){
-	//パラメータから円を描画
-   ofSetColor(circleColor);
-	ofCircle(ofGetWidth()/2, ofGetHeight()/2, circleSize);
-	gui.draw();
+    //パラメータから円を描画
+    ofSetColor(circleColor);
+    ofDrawCircle(ofGetWidth()/2, ofGetHeight()/2, circleSize);
+    gui.draw();
 }
 ```
