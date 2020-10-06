@@ -1,10 +1,17 @@
 # メッシュ
 
+![](img/ofMesh01.png)
+
 ## ofMesh()
 
+3Dオブジェクトは頂点データの集まりから描画されている。
 
-[https://openframeworks.cc/documentation/3d/ofMesh/](https://openframeworks.cc/documentation/3d/ofMesh/)
+[公式サイト: ofMesh](https://openframeworks.cc/documentation/3d/ofMesh/)
 
+参照: [ofMeshの基礎](https://qiita.com/YoshimasaSakuragi/items/2734ff24e2f6a2e5aafe)
+
+
+&nbsp;
 
 ofApp.h
 
@@ -16,7 +23,7 @@ ofApp.cpp
 
 ```
 void ofApp::setup(){
-    ofBackground(239);
+    ofBackground(255);
     
     //頂点の座標を指定
     mesh.addVertex(ofVec3f(100,100,0));
@@ -47,6 +54,11 @@ void ofApp::draw(){
 
 ```
 ![](img/mesh01.png)
+
+
+&nbsp;
+&nbsp;
+
 
 
 
