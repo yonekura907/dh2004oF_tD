@@ -38,7 +38,7 @@
 * [映像音響処理概説 2019](http://satoruhiga.com/TDWS2019/)
 * [Generative Design
 ](http://www.derivative.ca/wiki088/index.php?title=Generative_Design)
-* [TouchDesigner in Asia](http://www.touchdesigner.co/)
+* [TDSW](https://www.youtube.com/c/TDSW-online/featured)
 
 
 &nbsp;
