@@ -4,23 +4,23 @@
 
 ### カリキュラム
 
-* [TouchDesignerについて](docs/td/01_Basic.md)
-* [解像度](docs/td/00_Resolution.md)
-* [Feedbackを使った残像表現](docs/td/00_Resolution.md)
-* [パラメーターリンク](docs/td/04_Referance.md)
-* [3D](docs/td/00_3D.md)
-* [OSC](docs/td/00_OSC.md)
+* [TouchDesignerについて](docs/td/docs/01_Basic.md)
+* [解像度](docs/td/docs/00_Resolution.md)
+* [Feedbackを使った残像表現](docs/td/docs/00_Resolution.md)
+* [パラメーターリンク](docs/td/docs/04_Referance.md)
+* [3D](docs/td/docs/00_3D.md)
+* [OSC](docs/td/docs/00_OSC.md)
 
 &nbsp;
 &nbsp;
 
 ### Operator
-* [TOP](docs/td/02_TOP.md)
-* [CHOP](docs/td/03_CHOP.md)
-* [SOP](docs/td/05_SOP.md)
-* [MAT](docs/td/06_MAT.md)
-* [DAT](docs/td/07_DAT.md)
-* [COMP](docs/td/08_COMP.md)
+* [TOP](docs/td/docs/02_TOP.md)
+* [CHOP](docs/td/docs/03_CHOP.md)
+* [SOP](docs/td/docs/05_SOP.md)
+* [MAT](docs/td/docs/06_MAT.md)
+* [DAT](docs/td/docs/07_DAT.md)
+* [COMP](docs/td/docs/08_COMP.md)
 
 &nbsp;
 &nbsp;
