@@ -1,5 +1,50 @@
 # DHW UIUXD 20.4月生
 
+## TouchDesigner
+
+### カリキュラム
+
+* [TouchDesignerについて](docs/td/01_Basic.md)
+* [解像度](docs/td/00_Resolution.md)
+* [Feedbackを使った残像表現](docs/td/00_Resolution.md)
+* [パラメーターリンク](docs/td/04_Referance.md)
+* [3D](docs/td/00_3D.md)
+* [OSC](docs/td/00_OSC.md)
+
+&nbsp;
+&nbsp;
+
+### Operator
+* [TOP](docs/td/02_TOP.md)
+* [CHOP](docs/td/03_CHOP.md)
+* [SOP](docs/td/05_SOP.md)
+* [MAT](docs/td/06_MAT.md)
+* [DAT](docs/td/07_DAT.md)
+* [COMP](docs/td/08_COMP.md)
+
+&nbsp;
+&nbsp;
+
+### 公式サイト
+* [DERIVATIVE](https://www.derivative.ca/)
+* [DERIVATIVE 公式Wiki](https://docs.derivative.ca/Main_Page)
+
+&nbsp;
+&nbsp;
+
+### 参考
+* [Visual Thinking with TouchDesigner　プロが選ぶリアルタイムレンダリング＆プロトタイピングの極意](https://www.amazon.co.jp/dp/B075L6DRBW)
+* [Matthew Ragan](https://www.youtube.com/channel/UCKAAKTI2xLNNBJRkdf8E58A)
+* [映像音響処理概説 2019](http://satoruhiga.com/TDWS2019/)
+* [Generative Design
+](http://www.derivative.ca/wiki088/index.php?title=Generative_Design)
+* [TouchDesigner in Asia](http://www.touchdesigner.co/)
+
+
+&nbsp;
+&nbsp;
+
+
 
 ## openFrameworks
 
