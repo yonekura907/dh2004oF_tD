@@ -48,6 +48,14 @@ FFT周波数分析をする
 
 ![](img/audiospect_chop.png)
 
+* `FFT Size` スペクトラム解析に使うサンプル数 （べき乗で指定する）
+
+*  `Frequency <-> Logarithmic Scaling` 音量 / 周波数の比率。1に上げると人間の聴域に近く低周波数側が表示されてくる 
+
+* `High Frequency Boost` 1より大きい場合、高周波数のボリュームが上がる
+
+* `Output Length` 出力方法。`Set Output Length`から`Set Length Manual`にしてサンプル数を調整する
+
 
 &nbsp;
 &nbsp;
@@ -300,6 +308,19 @@ OSC 通信
 ## Rename
 
 チャンネル名を変える
+
+&nbsp;
+&nbsp;
+
+## Resample
+
+出力するサンプル数を調整する
+
+![](img/chop_resample.png)
+
+1.  `Method` `New Rate, New Interval` に変更
+2. `Unit Values`を`Absolute`に変更
+3. `Start`から`End`の値を変更してサンプル数を調整する。単位は `I : Sample Rate`を選択する
 
 &nbsp;
 &nbsp;
